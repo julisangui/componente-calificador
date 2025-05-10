@@ -8,6 +8,9 @@
 body {
     background-color: rgb(20, 21, 25);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .componente-calificador {
@@ -16,15 +19,12 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 25%;
+    width: 320px;
     padding: 20px;
     border-radius: 20px;
     gap: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
+    min-height: 400px;
+    height: auto;
 }
 
 .contenedor-estrella {
@@ -84,17 +84,14 @@ p {
     display: none;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     margin: 0 auto;
-    width: 25%;
+    width: 320px;
     padding: 20px;
     border-radius: 20px;
     gap: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    text-align: center;
+    min-height: 400px;
+    height: auto;
 }
 
 .mensaje img {
